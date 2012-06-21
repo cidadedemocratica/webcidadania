@@ -1,3 +1,134 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#content {
+  text-align: left;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  visibility: visible;
+}
+
+#content .bodytext li {
+  height: 190px;
+  float: left;
+  margin-left: 15px;
+}
+
+#content .bodytext li.last {
+  margin-right: 0px;
+}
+
+#content ul {
+  list-style-type: none;
+  margin-bottom:0px
+}
+
+#content li a {
+  text-indent: -8008px;
+  overflow: hidden;
+  float: left;
+  width: 156px;
+  height: 156px;
+  background: no-repeat 0px 0px;
+}
+
+#content li a:hover {
+  opacity: .9;
+}
+
+#content li a:active, .downkey {
+  background-position: 0px -156px;
+  opacity: 1;
+}
+
+#etiqueta {
+  position: relative;
+  top: 300px;
+}
+
+#rodape {
+  text-align:center;
+}
+
+/* ----------------------- ICONS ----------------------- */
+#content li a#cidade {
+  background-image:url('/assets/icon-cidade-democratica.png');
+}
+
+#content li a#votenaweb {
+  background-image:url('/assets/icon-vote-na-web.png');
+}
+
+#content li a#adoteumvereador {
+  background-image:url('/assets/icon-adote-um-vereador.png');
+}
+
+#content li a#votoconsciente {
+  background-image:url('/assets/icon-voto-consciente.png');
+}
+
+#content li a#urbanias {
+  background-image:url('/assets/icon-urbanias.png');
+}
+
+#content li a#sacsp {
+  background-image:url('/assets/icon-sac-sp.png');
+}
+
+#content li a#transparenciahackday {
+  background-image:url('/assets/icon-transparencia-hack-day.png');
+}
+
+#content li a#movimentoboapraca {
+  background-image:url('/assets/icon-movimento-boa-praca.png');
+}
+
+#content li a#vivafavela {
+  background-image:url('/assets/icon-viva-favela.png');
+}
+
+#content li a#criticarbh {
+  background-image:url('/assets/icon-criticar-bh.png');
+}
+
+#content li a#twiticos {
+  background-image:url('/assets/icon-twiticos.png');
+}
+
+#content li a#congressofoco{
+  background-image:url('/assets/icon-congresso-em-foco.png');
+}
+
+#content li a#redejovem{
+  background-image:url('/assets/icon-rede-jovem.png');
+}
+
+#content li a#movimentosuperacao{
+  background-image:url('/assets/icon-movimento-superacao.png');
+}
+
+#content li a#eleitor2010{
+  background-image:url('/assets/icon-eleitor-2010.png');
+}
+
+#content li a#bovap{
+  background-image:url('/assets/icon-bovap.png');
+}
+
+#content li a#fichalimpa{
+  background-image:url('/assets/icon-ficha-limpa.png');
+}
+
+#content li a#dezperguntas{
+  background-image:url('/assets/icon-10-perguntas.png');
+}
+
+#content li a#avaaz{
+  background-image:url('/assets/icon-avaaz.png');
+}
+#content li a#votoaberto{
+  background-image:url('/assets/icon-voto-aberto.png');
+}
+#content li a#doepalavras{
+  background-image:url('/assets/icon-doe-palavras.png');
+}
+
+#content li a#faleconosco {
+  background-image:url('/assets/icon-fale-conosco.png');
+}

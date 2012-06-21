@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Webcidadania</title>
+  <title>WebCidadania</title>
+  <meta name="description" content="Reunião de iniciativas online de cidadania">
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <%= yield %>
+  <%= javascript_include_tag "application" %>
 </body>
 </html>

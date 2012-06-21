@@ -8,6 +8,44 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+ *= require reset
+ *= require text
+ *= require 960
  *= require_self
  *= require_tree .
  */
+
+body {
+	color: white;
+	background-image: url('/assets/bg_amarelo.gif');
+	height: 95%;
+	background-position:center; 
+	background-repeat:repeat-x;
+	background-color: gray;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.copy {
+  font-size: 14px;
+  visibility: visible;
+}
+	
+.copy h1 {
+  text-align: center;
+  font-size:0.01px;
+  color: #df0d50;
+  margin-bottom: 0px;
+}
+
+.copy p {
+  text-align: center;
+  font-size:100%;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+	
+.copy ul {
+  font-size:120%;
+  line-height: 1.5;
+  list-style-type: disc;
+}

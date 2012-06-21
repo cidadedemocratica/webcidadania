@@ -1,2 +1,120 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="container_12">
+  <div class="grid_12 alpha omega copy" style="margin: 25px 0 25px 0;">
+    <h1>
+      <img src="/assets/webcidadania.png">
+      #webcidadania
+    </h1>
+  </div>
+
+  <div class="prefix_1 grid_10 sufix_1 alpha omega copy" style="margin: 0 0 50px 0;">
+    <p>Como a <b>#webcidadania</b> pode ajudar a: <br />
+    Construir o país em que queremos viver?<br />
+    Mudar nossa herança cultural que nos faz pensar que o país,
+    o estado, a cidade, o bairro são de outro alguém?<br />
+    Mudar essa postura passiva que espera que alguém resolva os nossos problemas?</p>
+  </div>
+
+  <!-- botoes e twitter -->
+  <div class="grid_12 alpha omega">
+    <div class="grid_9 alpha" id="content">
+      <div class="bodytext">
+        <ul>
+          <li><a id="cidade" href="http://www.cidadedemocratica.org.br/"
+            class="link1" target="_blank">Cidade Democrática</a></li>
+          <li><a id="votenaweb" href="http://www.votenaweb.com.br/"
+            class="link2" target="_blank">Vote na Web</a></li>
+          <li><a id="adoteumvereador" href="http://vereadores.wikia.com/wiki/P%C3%A1gina_principal"
+            class="link3" target="_blank">Adote um Vereador</a></li>
+          <li class="last"><a id="votoconsciente" href="http://www.votoconsciente.org.br/"
+            class="link4" target="_blank">Voto Consciente</a></li>
+          <li><a id="urbanias" href="http://www.urbanias.com.br/"
+            class="link1" target="_blank">Urbanias</a></li>
+          <li><a id="sacsp" href="http://sacsp.mamulti.com/"
+            class="link2" target="_blank">SAC SP</a></li>
+          <li><a id="transparenciahackday" href="http://groups.google.com.br/group/thackday?hl=pt-BR&pli=1"
+            class="link3" target="_blank">Transparência Hack Day</a></li>
+          <li class="last"><a id="movimentoboapraca" href="http://boapraca.ning.com/"
+            class="link4" target="_blank">Movimento Boa Praça</a></li>
+          <li><a id="criticarbh" href="http://www.criticarbh.com.br/"
+            class="link1" target="_blank">Criticar BH</a></li>
+          <li><a id="vivafavela" href="http://www.vivafavela.com.br/"
+            class="link2" target="_blank">Viva Favela</a></li>
+          <li><a id="twiticos" href="http://twitcetera.pbworks.com/Politicos"
+            class="link3" target="_blank">Twiticos</a></li>
+          <li class="last"><a id="congressofoco" href="http://congressoemfoco.uol.com.br/"
+            class="link4" target="_blank">Congresso em Foco</a></li>
+          <!--  Terceira linha linha-->
+          <li><a id="redejovem" href="http://www.redejovem.org.br/"
+            class="link1" target="_blank">Rede Jovem</a></li>
+          <li><a id="movimentosuperacao" href="http://www.movimentosuperacao.org.br/"
+            class="link1" target="_blank">Movimento Superação</a></li>
+          <li><a id="eleitor2010" href="http://eleitor2010.com/"
+            class="link1" target="_blank">Eleitor 2010</a></li>
+          <li class="last"><a id="doepalavras" href="http://www.doepalavras.com.br/"
+            class="link4" target="_blank"> Doe Palavras</a></li>
+          <!--  Quarta linha linha-->
+          <li><a id="votoaberto" href="http://www.votoaberto.com.br/"
+            class="link1" target="_blank">Voto Aberto</a></li>
+          <li><a id="avaaz" href="http://www.avaaz.org/"
+            class="link2" target="_blank">AVAAZ</a></li>
+          <li><a id="dezperguntas" href="http://www.10perguntas.com.br/"
+            class="link3" target="_blank">10 Perguntas</a></li>
+          <li class="last"><a id="fichalimpa" href="http://fichalimpa.org.br/"
+            class="link4" target="_blank"> Ficha Limpa</a></li>
+          <!--  Quinta linha linha-->
+          <li><a id="bovap" href="http://www.bovap.com.br/Site/Painel/BlogSite.aspx?uid="
+            class="link1" target="_blank">Bovap</a></li>
+          <li class="last"><a id="faleconosco" href="mailto:movimento@webcidadania.org.br"
+            class="link4" target="_blank">Fale Conosco</a></li>
+          <!--  Sexta linha linha-->
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid_3 omega">
+      <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+      <script>
+        new TWTR.Widget({
+          version: 2,
+          type: 'search',
+          search: 'webcidadania',
+          interval: 6000,
+          title: 'Cidadania na Web',
+          subject: '#webcidadania',
+          width: 220,
+          height: 637,
+          theme: {
+            shell: {
+              background: '#8ec1da',
+              color: '#ffffff'
+            },
+            tweets: {
+              background: '#ffffff',
+              color: '#444444',
+              links: '#1985b5'
+            }
+          },
+          features: {
+            scrollbar: false,
+            loop: true,
+            live: true,
+            hashtags: true,
+            timestamp: true,
+            avatars: true,
+            behavior: 'default'
+          }
+        }).render().start();
+      </script>
+    </div>
+  </div> <!--fecha botoes e twitter -->
+
+  <div class="prefix_1 grid_10 sufix_1 alpha omega" id="rodape" style="margin: 50px 0 0 0;">
+    <p>Você faz <b>#webcidadania</b>? Conte sua experiência pra gente!
+    <a href="mailto:movimento@webcidadania.org.br">movimento@webcidadania.org.br</a></p>
+  </div>
+</div> <!--fecha container_12 -->
+
+<!-- FUTURA ETIQUETA LATERAL GOV2.0 -->
+<!--<div id="etiqueta" style="width:50px;height:125px;background-color:green;">
+</div>
+-->
